@@ -1,0 +1,22 @@
+[user]
+	name = Rie-Naoi
+	email = rie.naoi03@g.softbank.co.jp
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	editor = code --wait
+[alias]
+	ci = commit
+	st = status
+	br = branch
+	co = checkout
+[pull]
+	rebase = true
