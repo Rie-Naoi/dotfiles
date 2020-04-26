@@ -7,8 +7,16 @@ set tabstop =4 "インデントをスペース4つ分に設定
 set smartindent "オートインデント
 
 " ### ターミナルの色設定 ###
-highlight Normal ctermbg =none
-highlight NonText ctermbg =none
-highlight LineNr ctermbg =none
-highlight Fokded ctermbg =none
-highlight EndOfBuffer ctermbg =none
+"highlight Normal ctermbg =none
+"highlight NonText ctermbg =none
+"highlight LineNr ctermbg =none
+"highlight Fokded ctermbg =none
+"highlight EndOfBuffer ctermbg =none
+
+let g:hybrid_use_iTerm_colors = 1
+colorscheme hybrid
+syntax on
+
+set number
+set cursorline
+set ruler
