@@ -20,3 +20,6 @@
 	co = checkout
 [pull]
 	rebase = true
+[url "github:"]
+	InsteadOf = https://github.com/
+	InsteadOf = git@github.com:
